@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.login-page{
+    width:600px;
+    height:650px;
+    margin: 20px auto;
+    background-color: red;
+    padding:40px;
+}
+
+.form{
+    width:400px;
+    padding:10px;
+    margin:20px auto;
+    text-align:center;
+    height:600px;
+    background-color:yellow;
+}
+
+#txt{
+    padding:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.register{
+    padding:30px;
+    margin-top: 50px;
+}
+
+input{
+    width:180px;
+    padding:8px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px solid white;
+}
+
+input[type=submit]{
+    width:100px;
+    background-color:green;
+}
+input[type=reset]{
+    width:100px;
+    background-color:green;
+}
+
+
+#txt{
+    padding:20px;
+}
+
+
+

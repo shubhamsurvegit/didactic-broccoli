@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type=text/css href="form.css">
+</head>
+
+<!-- I have created a Contact form which has attributes like username,password,email,Phone,Gender.
+It has 2 files html for body and css file for design and also includes 2 javascript fucntion. -->
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <h1 id="txt">Contact Form</h1>
+            <form class="register">
+                <!-- 7 Input fields requied -->
+                <input id="demo" mouseover="bordercolor()" onchange="my()" type="text" placeholder="username"><br><br>
+                <input id="demo" mouseover="bordercolor()" type="password" placeholder="password"><br><br>
+                <input id="demo" mouseover="bordercolor()" type="email" placeholder="email"><br><br>
+                <input id="demo" mouseover="bordercolor()" type="number" placeholder="phone"><br><br>
+                Male<input type="radio" placeholder=""><br>
+                Female<input type="radio" placeholder=""><br><br>
+                <input type="submit" placeholder="REGISTER">
+                <input type="reset" placeholder="RESET"><br>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // this has 2 function
+        // In my() function when we type text in field it gets converted in uppercase by onchange.
+        function my() {
+            var x = document.getElementById("demo");
+            x.value = x.value.toUpperCase();
+        }
+        // In bordercolor function we get a blue border by mouseover.
+        function bordercolor() {
+            var y = document.getElementById("demo");
+            y.style.border = "4px solid black"
+        }
+    </script>
+</body>
+
+</html>
